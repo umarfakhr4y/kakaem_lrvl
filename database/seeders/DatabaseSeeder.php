@@ -21,5 +21,6 @@ class DatabaseSeeder extends Seeder
        $this->call(RatingSeeder::class);
        $this->call(LokasiSeeder::class);
        $this->call(DropspotSeeder::class);
+       $this->call(orderSeeder::class);
     }
 }
